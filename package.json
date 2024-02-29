@@ -1,0 +1,36 @@
+{
+  "name": "biagiofront-enddeveloper",
+  "source": "index.html",
+  "version": "1.0.0",
+  "description": "This project is a Landing Page and is based on my knowledge, my projects and my person. I have also added the link to my social/GitHub. Any interested person can also write to me via the form.",
+  "type": "module",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --open Chrome --port 6969",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "author": {
+    "name": "Biagio Scognamiglio",
+    "email": "biagioscognamiglio99@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.11.0",
+    "@parcel/packager-xml": "^2.11.0",
+    "@parcel/transformer-webmanifest": "^2.11.0",
+    "@parcel/transformer-xml": "^2.11.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.11.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "sweetalert2": "^11.6.13"
+  }
+}
