@@ -96,8 +96,13 @@ h1 {
   position: absolute;
   z-index: -10;
 
+  @media (min-width: 375px) {
+    right: -7rem;
+    height: 450px;
+  }
+
   @media (min-width: 768px) {
-    right: -7rem;  
+    right: -3rem;  
   }
 
   @media (min-width: 1024px) {
