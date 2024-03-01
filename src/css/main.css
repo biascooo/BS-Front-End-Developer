@@ -198,11 +198,18 @@ h1 {
   }
 }
 
+.photo {
+    border-radius: 10%; /* Un valore del 50% arrotonda l'immagine in un cerchio */
+    overflow: hidden; /* Assicura che l'immagine non esca dai limiti del bordo arrotondato */
+}
+
 .block__section-thumbnail {
   object-fit: cover;
   margin: 0 auto;
   height: 400px;
   width: auto;
+  border-radius: 10%;
+  overflow: hidden;
 
   @media (min-width: 768px) {
     height: 700px;
