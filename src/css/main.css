@@ -136,6 +136,10 @@ h1 {
     font-size: 13px;
   }
 
+  @media (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+
   @media (min-width: 1400px) {
         font-size: 28px;
     }
