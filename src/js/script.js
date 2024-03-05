@@ -1,7 +1,5 @@
-import dotenv from 'dotenv';
 import Swal from 'sweetalert2';
 
-dotenv.config();
 const btn = document.getElementById('button');
 
 const {SERVICE_KEY, TEMPLATE_KEY, PUBLIC_KEY} = process.env;
