@@ -282,7 +282,7 @@ h1 {
   background-color: blue;
   border-radius: 50%;
   right: 8rem;
-  position: absolute;
+  position: relative;
   width: 337px;
   height: 313px;
   background: rgba(47, 77, 181, 0.35);
@@ -291,7 +291,7 @@ h1 {
 }
 
 .circle-2 {
-  position: absolute;
+  position: relative;
   width: 337px;
   height: 313px;
   top: 30rem;
