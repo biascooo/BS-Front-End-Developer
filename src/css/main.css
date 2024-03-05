@@ -289,7 +289,7 @@ h1 {
   background-color: blue;
   border-radius: 50%;
   right: 8rem;
-  position: relative;
+  position: absolute;
   width: 337px;
   height: 313px;
   background: rgba(47, 77, 181, 0.35);
@@ -298,7 +298,7 @@ h1 {
 }
 
 .circle-2 {
-  position: relative;
+  position: absolute;
   width: 337px;
   height: 313px;
   top: 30rem;
@@ -311,3 +311,4 @@ h1 {
 .moving {
   transform: translateX(-20rem);
 }
+
