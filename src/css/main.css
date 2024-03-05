@@ -310,6 +310,7 @@ h1 {
   background: rgba(181, 47, 104, 0.46);
   filter: blur(125px);
   z-index: -20;
+  border-radius: 50%;
 }
 
 .moving {
