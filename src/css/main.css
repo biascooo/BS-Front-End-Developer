@@ -288,29 +288,25 @@ h1 {
 
 .circle-1 {
   z-index: -20;
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  border-radius: 50%;
-  right: 8rem;
   position: absolute;
+  border-radius: 50%;
   width: 337px;
   height: 313px;
   background: rgba(47, 77, 181, 0.35);
-  filter: blur(125px);
-  transition: transform ease-in-out 0.3s;
+  right: 12rem;
+  filter: blur(80px);
 }
 
 .circle-2 {
+  z-index: -20;
   position: absolute;
+  border-radius: 50%;
   width: 337px;
   height: 313px;
-  top: 30rem;
-  right: 0;
   background: rgba(181, 47, 104, 0.46);
-  filter: blur(125px);
-  z-index: -20;
-  border-radius: 50%;
+  right: -63px;
+  filter: blur(80px);
+  top: 30rem;
 }
 
 .moving {
